@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+nav {
+    background-color: #90C7E3;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-size: large;
+}
+
+h2 {
+    color: darkblue;
+}
+
+img {
+    width: 100%;
+}
+
+.copy {
+    text-align: center;
+    color: dodgerblue;
+}
+#contact {
+    font-size: small;
+    text-decoration: underline;
+}
+.header {
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    padding: 5px;
+}
+h1 {
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.redirect{
+    color: dodgerblue;
+}
+.header-yurts {
+    text-align: center;
+    background-color:tomato;
+    color: white;
+    padding: 5px;
+}
