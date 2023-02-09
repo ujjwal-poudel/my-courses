@@ -7,7 +7,15 @@ namespace week4
     {
         public bool Ques6()
         {
-            //This program uses bool datatype to check wheater the statement given is true or false
+            /*
+             Write a program to ask the user about the validity of
+             response then display the statement as well as the
+             a simple statement. The program should accept the
+             response. The response should be true or false. For
+             this question, you must use a variable of type bool.
+             It is useful to know that Convert.ToBoolean() can work with true, True, tRue, TRUE etc.
+            */
+
             Console.Write("The statement earth revolves around the sun is True or False? ");
 
             //This line takes string value as user input and assign to variable check of data type bool

@@ -1,0 +1,8 @@
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\obj\Debug\Question_8_Tax.csproj.AssemblyReference.cache
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\obj\Debug\Question_8_Tax.csproj.SuggestedBindingRedirects.cache
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\obj\Debug\Question_8_Tax.csproj.CoreCompileInputs.cache
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\bin\Debug\Question_8_Tax.exe.config
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\bin\Debug\Question_8_Tax.exe
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\bin\Debug\Question_8_Tax.pdb
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\obj\Debug\Question_8_Tax.exe
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Class_Project\Week_5\Solution_Week_05\Question_8_Tax\obj\Debug\Question_8_Tax.pdb
