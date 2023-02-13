@@ -1,0 +1,8 @@
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\bin\Debug\Question_5.exe.config
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\bin\Debug\Question_5.exe
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\bin\Debug\Question_5.pdb
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\obj\Debug\Question_5.csproj.AssemblyReference.cache
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\obj\Debug\Question_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\obj\Debug\Question_5.csproj.CoreCompileInputs.cache
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\obj\Debug\Question_5.exe
+C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Switch_Statement\Question_5\Question_5\obj\Debug\Question_5.pdb

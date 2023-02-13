@@ -39,7 +39,7 @@ namespace Q_6
                 Console.WriteLine($"Your withholding tax is {withholdingTax:C}");
                 Console.WriteLine($"Your pay after reducing tax is {finalPay:C} as 10% tax defined");
             }
-            else if (grossPay > 300)
+            else 
             {
                 Console.WriteLine($"Your gross pay is {grossPay:C} without including tax");
                 double withholdingTax = 0.12 * grossPay;
@@ -48,10 +48,7 @@ namespace Q_6
                 Console.WriteLine($"Your withholding tax is {withholdingTax:C} as 12% tax rate defined");
                 Console.WriteLine($"Your pay after reducing tax is {finalPay:C}");
             }
-            else
-            {
-                Console.WriteLine("sorry, Please enter a valid input either float or integer");
-            }
+             Console.WriteLine("sorry, Please enter a valid input either float or integer");
             Console.WriteLine(new string('-', 75));
         }
     }
