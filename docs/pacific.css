@@ -30,13 +30,31 @@ body {
 
 /* Header Starts */
 .title {
-    line-height: 1.5;
+    font-size: 18px;
+    line-height: 400%;
     color: darkblue;
     text-align: center;
+    text-indent: 1rem;
     text-transform: uppercase;
     border-bottom: 1px solid #c0c0c0;
     margin: 0;
-    padding: 8px 16px;
+    padding: 108px 16px 8px 16px;
+    background-image: url("./images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
 }
 
 .navbar__nav {
@@ -73,6 +91,16 @@ body {
 /* Main Starts */
 .main {
     padding: 24px 16px;
+}
+
+.extra-image__coast img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.activities__item {
+    list-style-image: url(./images/marker.gif);
 }
 
 .main dt {
@@ -119,6 +147,11 @@ body {
 .footer {
     padding: 24px 0;
     background: #dde5f5;
+    font-size: 75%;
+}
+
+#contact {
+    font-size: 90%;
 }
 
 /* Footer Ends */
@@ -133,6 +166,10 @@ body {
 @media (min-width: 768px) {
     .container {
         --max-width: 768px;
+    }
+
+    .title {
+        font-size: 24px;
     }
 
     .navbar__nav {
@@ -165,6 +202,12 @@ body {
 @media (min-width: 992px) {
     .container {
         --max-width: 992px;
+    }
+
+    .title {
+        padding: 8px 16px;
+        background-position: 64px center;
+        font-size: 32px;
     }
 
     .control-table {

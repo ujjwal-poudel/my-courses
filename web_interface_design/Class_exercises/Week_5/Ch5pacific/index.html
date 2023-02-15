@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pacific Trails Resort</title>
-        <link rel="stylesheet" href="./normalize.css">
-        <link rel="stylesheet" href="./pacific.css">
+        <link rel="stylesheet" href="./normalize.css"/>
+        <link rel="stylesheet" href="./pacific.css"/>
+        <link rel="icon" href="./images/sunset.jpg"/>
     </head>
 
     <body>
@@ -54,6 +55,21 @@
         <!-- Main Starts -->
         <main class="main container">
             <h2 class="heading">Enjoy Nature In Luxury</h2>
+            <figure class="main__extra-image">
+                <picture class="extra-image__coast">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/coast.jpg" width="576"
+                        height="324">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/coast.jpg" width="820"
+                        height="360">
+                    <source media="(min-width: 1400px)"
+                        srcset="./images/coast.jpg" width="1500"
+                        height="659">
+                    <img src="./images/coast.jpg" alt="Riverside View from
+                        Hotel" width="576" height="324">
+                </picture>
+            </figure>
             <p>
                 Pacific Trails Resort offers a special lodging
                 experience on the California
@@ -67,12 +83,16 @@
             <article>
                 <h3 class="heading">Activities To Explore</h3>
                 <ul class="activities">
-                    <li>Unwind in the heated outdoor pool and whirlpool</li>
-                    <li>Explore the coast on your own or join our guided
+                    <li class="activities__item">Unwind in the heated outdoor
+                        pool and whirlpool</li>
+                    <li class="activities__item">Explore the coast on your own
+                        or join our guided
                         tours</li>
-                    <li>Relax in our lodge while enjoying complimentary
+                    <li class="activities__item">Relax in our lodge while
+                        enjoying complimentary
                         appetizers and beverage</li>
-                    <li>Savor nightly fine dining with an ocean view</li>
+                    <li class="activities__item">Savor nightly fine dining with
+                        an ocean view</li>
                 </ul>
             </article>
         </main>
@@ -94,11 +114,10 @@
                 </div>
 
                 <div class="copy">
-                    <small>
-                        Copyright &#169; 2012 Pacific Trails Resort | ujjwal.poudel.2003@gmail.com<br>
-                        <a
-                            href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b">LinkedIn</a>
-                    </small>
+                    Copyright &#169; 2012 Pacific Trails Resort |
+                    ujjwal.poudel.2003@gmail.com<br>
+                    <a
+                        href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b">LinkedIn</a>
                 </div>
             </div>
         </footer>
