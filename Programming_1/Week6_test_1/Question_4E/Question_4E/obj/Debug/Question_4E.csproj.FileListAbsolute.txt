@@ -1,0 +1,8 @@
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\bin\Debug\Question_4E.exe.config
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\bin\Debug\Question_4E.exe
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\bin\Debug\Question_4E.pdb
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\obj\Debug\Question_4E.csproj.AssemblyReference.cache
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\obj\Debug\Question_4E.csproj.SuggestedBindingRedirects.cache
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\obj\Debug\Question_4E.csproj.CoreCompileInputs.cache
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\obj\Debug\Question_4E.exe
+C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_4E\Question_4E\obj\Debug\Question_4E.pdb
