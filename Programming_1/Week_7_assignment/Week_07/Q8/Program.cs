@@ -18,11 +18,11 @@ namespace Q8
                 Console.Write("Enter an Integer: ");
                 double number = Convert.ToDouble(Console.ReadLine());
                 double average = (number + sum) / counter;
-                Console.WriteLine($"The total average is {average}");
                 sum = number + sum;
                 counter++;
             }
             while (sum < 100);
+            Console.WriteLine($"The total average is {average}");
         }
     }
 }

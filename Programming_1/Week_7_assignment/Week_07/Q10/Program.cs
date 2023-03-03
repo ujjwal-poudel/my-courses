@@ -13,16 +13,16 @@ namespace Q10
         static void Main(string[] args)
         {
             double celcius = 100;
-            Console.Write("Celcius\t\t");
-            Console.WriteLine("Fahrenheit");
+            Console.WriteLine("Celcius    Fahrenheit");;
             do
             {
-                Console.Write($"{celcius, 7}");
+                Console.Write($"{celcius, 5}");
                 double fahrenheit = 9 / 5 * (celcius + 32);
-                Console.WriteLine($"{fahrenheit, 19}");
+                Console.WriteLine($"{fahrenheit, 13}");
                 celcius -= 10;
             }
             while (celcius > 0);
-            Console.ReadKey();        }
+            Console.ReadKey();
+        }
     }
 }

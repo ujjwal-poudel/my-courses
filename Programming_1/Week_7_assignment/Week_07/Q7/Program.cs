@@ -20,10 +20,10 @@ namespace Q7
                 Console.Write("Enter an Integer: ");
                 int number = Convert.ToInt32(Console.ReadLine());
                 sum = number + adder;
-                Console.WriteLine($"The total sum is {sum}");
                 adder = sum;
             } 
             while (sum < 100);
+            Console.WriteLine($"The total sum is {sum}");
         }
     }
 }

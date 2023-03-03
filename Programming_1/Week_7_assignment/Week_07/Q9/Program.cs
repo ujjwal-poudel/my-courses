@@ -24,7 +24,7 @@ namespace Q9
                 start++;
             }
             while (start < end);
-            Console.WriteLine(sum);
+            Console.WriteLine($"{sum:N}");
             Console.ReadKey();
         }
     }
