@@ -30,7 +30,7 @@ namespace Q11
                 Console.Write("Enter starting character from a to z: ");
                 start = Convert.ToChar(Console.ReadLine());
                 Console.Write("Enter ending character from a to z: ");
-                end = Convert.ToChar(Console.ReadLine());
+                end = Convert.ToChar(Console.ReadLine()); 
 
                 if (end > start)
                 {

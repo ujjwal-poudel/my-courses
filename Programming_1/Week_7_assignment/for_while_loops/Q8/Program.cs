@@ -36,12 +36,11 @@ namespace Q8
             //for loop
             Console.WriteLine(" Farenheit         Celcius");
             Console.WriteLine("---------------------------");
-            for (;start < end; start = start + increament)
+            for (;start <= end; start = start + increament)
             {
                 celcius = (start - 32) * 10 / 18;
-                Console.WriteLine($"{start,8:F2}{celcius,17:F2}");
+                Console.WriteLine($"{start,8:F}{celcius,17:F}");
             }
-            Console.ReadLine();
         }
     }
 }

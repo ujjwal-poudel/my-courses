@@ -1,4 +1,4 @@
-﻿using System;
+﻿  using System;
 /*
  * A conversion table of Celsius to Fahrenheit temperature. The table must start with 100
  * Celsius and end at 0 Celsius with decrements of 10. (Fahrenheit = 9/5 * Celsius +
@@ -22,7 +22,6 @@ namespace Q10
                 celcius -= 10;
             }
             while (celcius > 0);
-            Console.ReadKey();
         }
     }
 }

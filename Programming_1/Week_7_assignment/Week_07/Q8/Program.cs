@@ -12,12 +12,13 @@ namespace Q8
         {
             double counter = 1;
             double sum = 0;
+            double average;
 
             do
             {
                 Console.Write("Enter an Integer: ");
                 double number = Convert.ToDouble(Console.ReadLine());
-                double average = (number + sum) / counter;
+                average = (number + sum) / counter;
                 sum = number + sum;
                 counter++;
             }

@@ -32,8 +32,6 @@ namespace Q7
             //    int cubes = i * i * i;
             //    Console.WriteLine($"{i, 5}{squares, 12}{cubes, 11}");
             //}
-
-            Console.ReadKey();
         }
     }
 }
