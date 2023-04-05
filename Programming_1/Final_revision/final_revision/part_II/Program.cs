@@ -7,21 +7,21 @@ namespace part_II
     {
         static void Main(string[] args)
         {
-            //DisplayHorizontalStars(0);
-            //DisplayHorizontalStars(5);
-            //DisplayHorizontalStars(10);
-            //DisplayVerticalStars(0);
-            //DisplayVerticalStars(5);
-            //DisplayVerticalStars(10);
-            //CalculateVolumeOfSphere(1);
-            //CalculateVolumeOfSphere(2);
-            //CalculateVolumeOfSphere(10);
-            //CelsiusToDouble(37.0);
-            //CelsiusToDouble(101.43);
-            //KilometerToMilesConversion(5.0, 1.0, 15);
-            //KilometerToMilesConversion(8.343, 2.34, 10);
-            //KilometerToMilesConversion(12.45, 0.01, 6);
-            //DisplaySineTable(0, 1, 9);
+            DisplayHorizontalStars(0);
+            DisplayHorizontalStars(5);
+            DisplayHorizontalStars(10);
+            DisplayVerticalStars(0);
+            DisplayVerticalStars(5);
+            DisplayVerticalStars(10);
+            CalculateVolumeOfSphere(1);
+            CalculateVolumeOfSphere(2);
+            CalculateVolumeOfSphere(10);
+            CelsiusToDouble(37.0);
+            CelsiusToDouble(101.43);
+            KilometerToMilesConversion(5.0, 1.0, 15);
+            KilometerToMilesConversion(8.343, 2.34, 10);
+            KilometerToMilesConversion(12.45, 0.01, 6);
+            DisplaySineTable(0, 1, 9);
             CentimetersToMeters(90);
             CentimetersToMeters(120);
             CentimetersToMeters(275);
