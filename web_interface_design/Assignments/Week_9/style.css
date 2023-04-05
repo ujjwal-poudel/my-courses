@@ -60,21 +60,23 @@
 }
 
 .mx-90 {
-    max-width: 90%;
+    max-width: 90.7%;
 }
 
 .col-6 {
     width: 50%;
 }
 
-.mx-92 {
-    max-width: 92%;
+.mx-91 {
+    max-width: 91.7%;
 }
 
 .form-section__title {
     padding: 4px;
-    background-color: #ffff00;
+    background-color: #464648;
+    color: #ffff00;
     text-transform: uppercase;
+    font-weight: 400;
     margin: 16px 0px 0px 0px;
 }
 
@@ -129,7 +131,7 @@ input[type="text"] {
 
 textarea {
     border: none;
-    border-bottom: 1px solid #464648;
+    border-bottom: 1px solid #000000;
     width: 100%;
 }
 
@@ -150,5 +152,9 @@ footer {
     margin: 24px 0px 0px 0px;
     font-style: italic;
     text-align: center;
+}
+
+footer a {
+    color: #000000;
 }
 /* Body Ends */
