@@ -49,7 +49,6 @@ body {
     width: 100%;
     height: auto;
     object-fit: contain;
-    margin: 8px 0px 0px 0px;
 }
 
 .title-content__theme {
@@ -59,15 +58,27 @@ body {
 }
 
 
-.content__trade-info {
+.trade__buy {
     background-color: #E2C8B9;
     border: 1px solid #E2C8B9;
     border-radius: 8px;
-    margin: 8px 0px;
+    margin: 8px;
     text-align: center;
 }
 
-.trade-info__buy {
+.trade__sell {
+    background-color: #E2C8B9;
+    border: 1px solid #E2C8B9;
+    border-radius: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.buy__image {
+    text-align: center;
+}
+
+.sell__image {
     text-align: center;
 }
 
@@ -76,14 +87,14 @@ body {
     padding: 0px 8px;
 }
 
-.trade-info__buy img {
+.buy__image img {
     width: 30%;
     object-fit: contain;
     height: max-content;
 }
 
-.trade-info__sell img {
-    width: 70%;
+.sell__image img {
+    width: 40%;
     object-fit: contain;
     height: max-content;
 }
@@ -92,14 +103,82 @@ body {
     list-style-image: url(./media/list-icon.png)
 }
 
-.main__achievemets h4 {
+.main h4 {
     font-size: 18px;
-    margin: 8px 0px 8px 0px;
+    margin: 8px 0px;
+}
+
+.main__feedbacks {
+    text-align: center;
+}
+
+.main__feedbacks h3 {
+    font-size: 16px;
+    color: #7CB342;
+}
+
+.feedbacks__winry {
+    margin: 8px;
+    border: 2px solid #7CB342;
+    border-radius: 8px;
+}
+
+.winry__image img {
+    width: 43%;
+    height: 43%;
+    object-fit: contain;
+}
+
+.feedbacks__lee {
+    margin: 8px;
+    border: 2px solid #7CB342;
+    border-radius: 8px;
+}
+
+.lee__image img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.feedback__text p {
+    text-align: justify;
+    padding: 0px 8px;
 }
 /* Main Ends */
 
+/* Footer Starts */
+.footer {
+    background-color: #E2C8B9;
+    padding: 8px 0px 0px 0px;
+}
+
+.footer span {
+    margin: 8px 0px;
+    color: #7CB342;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.footer__copy {
+    text-align: center;
+}
+
+.copy__linkedin {
+    text-decoration: none;
+}
+
+/* Footer Ends */
+
 /* Making the website responsive */
 @media (min-width: 576px) {
+    .content__trade-info {
+        display: flex;
+    }
+
+    .main__feedbacks {
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) {
