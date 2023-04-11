@@ -108,3 +108,83 @@ print("Here are the following agile values:")
 for values in agile_values:
     print(index_value, agile_values[index_value])
     index_value += 1
+    
+"""Week_10 Exercise_1"""
+#Create a function called team_collaboration().
+#pass two team collaboration software names as the arguments. 
+#The function should print "I use ------- software for team collaboration "
+
+def team_collaboration(software_first, software_second):
+    print(f"I use {software_first} and {software_second} software for team collaboration.")
+    
+team_collaboration("Teams", "Github")
+
+"""Week_10 Exercise_2"""
+#Create a function called project() that store project_id globally and locally.
+#Call the function and display both the id's . 
+#Print the statement as 
+#"My global project id is :"
+#"My internal project id is :"
+
+project_id = 11
+def project():
+    #Creating porject id as a global variale inside a function
+    global project_id
+    project_id = 1
+    print(f"My local project id is {project_id}")
+    
+print(f"My global project id is {project_id}")
+project()
+
+"""Week_11 Exercise_1"""
+#Import the correct library and print a calendar for your project. 
+#Print October month calendar of this year 
+#sample output as follows :
+
+import calendar
+
+print(calendar.month(2021, 8))
+
+"""Week_11 Exercise_2"""
+#Use 5 Functions in Python Math Module  and print the results
+
+import math
+num1= 2
+num2 = 5
+
+sine = math.sin(num1)
+cose = math.cos(num1)
+power = math.pow(num1, num2)
+factorial = math.factorial(num2)
+root = math.sqrt(num1)
+
+print(f"The sin of {num1} is {sine}")
+print(f"The cos of {num1} is {cose}")
+print(f"The power of base {num1} to {num2} is {power}")
+print(f"The factorial of {num2} is {factorial}")
+print(f"The square root of {num1} is {root}")
+
+"""Week_12 Exercise_1"""
+#using OSmodule , explore the following functions  and execute the command 
+#1. Write a command to create a new directory using OS Library 
+#2. Write a command to delete the existing file
+
+import os
+new_directory = 'my_directory_directory'
+#0o755 gives permission for reading, writing the directory
+os.mkdir(new_directory, 0o755)
+
+os.remove('new_directory')
+
+"""Week_12 Exercise_2"""
+#using Pandas library , produce the following output.
+#using pandas data frame organize the data into rows and columns.
+
+import pandas as pd
+data = {
+        'subject_id' : [1, 2, 3, 4],
+        'student_name' : ['Joseph', 'Eva', 'Kevin', 'Joseph'],
+        'courses' : ['software engineering', 'Artificial Intelligence', 'Gaming', 'Software Engineering Technician']
+        }
+
+print(pd.DataFrame(data))
