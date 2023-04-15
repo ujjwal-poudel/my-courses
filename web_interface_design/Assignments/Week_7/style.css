@@ -304,9 +304,6 @@ figure {
 }
 /* Footer Ends */
 
-/* Product Starts */
-/* Product Ends */
-
 @media (min-width: 576px) {
     .container {
         --max-width: 576px;
