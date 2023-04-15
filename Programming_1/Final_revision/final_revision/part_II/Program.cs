@@ -8,6 +8,7 @@ namespace part_II
         static void Main(string[] args)
         {
             DisplayHorizontalStars(0);
+            Console.WriteLine();
             DisplayHorizontalStars(5);
             DisplayHorizontalStars(10);
             DisplayVerticalStars(0);
@@ -47,7 +48,6 @@ namespace part_II
             {
                 Console.Write($"* ");
             }
-            Console.WriteLine();
         }
         #endregion
 

@@ -6,33 +6,33 @@ namespace part_III
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine($"The fees is {CalculateTuitionFee(6, 449.99):C}");
-            //Console.WriteLine($"The fees is {CalculateTuitionFee(7, 330.66):C}");
-            //Console.WriteLine($"The fees is {CalculateTuitionFee(3, 880.34):C}");
+            Console.WriteLine($"The fees is {CalculateTuitionFee(6, 449.99):C}");
+            Console.WriteLine($"The fees is {CalculateTuitionFee(7, 330.66):C}");
+            Console.WriteLine($"The fees is {CalculateTuitionFee(3, 880.34):C}");
 
-            //Console.WriteLine($"\nThe commission is {CalculateCommission(900):C}");
-            //Console.WriteLine($"\nThe commission is {CalculateCommission(1000):C}");
-            //Console.WriteLine($"\nThe commission is {CalculateCommission(1001):C}");
-            //Console.WriteLine($"\nThe commission is {CalculateCommission(2000):C}");
+            Console.WriteLine($"\nThe commission is {CalculateCommission(900):C}");
+            Console.WriteLine($"\nThe commission is {CalculateCommission(1000):C}");
+            Console.WriteLine($"\nThe commission is {CalculateCommission(1001):C}");
+            Console.WriteLine($"\nThe commission is {CalculateCommission(2000):C}");
 
-            //Console.WriteLine($"The burger cost is {CalculateBurgerCosts():C}");
-            //Console.WriteLine($"\nThe burger cost is {CalculateBurgerCosts():C}");
+            Console.WriteLine($"The burger cost is {CalculateBurgerCosts():C}");
+            Console.WriteLine($"\nThe burger cost is {CalculateBurgerCosts():C}");
 
-            Console.WriteLine($"\nThe force of attraction is {CalculateGravitationalAttraction(5.972 * Math.Pow(10, 24), 7.348 * Math.Pow(10, 23), 3.844 * Math.Pow(10, 8)):e}N");
+            Console.WriteLine($"\nThe force of attraction is {CalculateGravitationalAttraction(5.972 * Math.Pow(10, 24), 7.348 * Math.Pow(10, 22), 3.844 * Math.Pow(10, 7)):e}N");
 
-            //Console.WriteLine($"\nThe burger cost is {CalculateHeronAreaOfTraingle(5.83, 4.24, 8.00):F}");
+            Console.WriteLine($"\nThe burger cost is {CalculateHeronAreaOfTraingle(5.83, 4.24, 8.00):F}");
 
-            //Console.WriteLine($"\nThe temperature in farenheit is {ConvertCelciusToFahrenheit(0):F}");
-            //Console.WriteLine($"\nThe temperature in farenheit is {ConvertCelciusToFahrenheit(51):F}");
-            //Console.WriteLine($"\nThe temperature in farenheit is {ConvertCelciusToFahrenheit(100):F}");
+            Console.WriteLine($"\nThe temperature in farenheit is {ConvertCelciusToFahrenheit(0):F}");
+            Console.WriteLine($"\nThe temperature in farenheit is {ConvertCelciusToFahrenheit(51):F}");
+            Console.WriteLine($"\nThe temperature in farenheit is {ConvertCelciusToFahrenheit(100):F}");
 
-            //Console.WriteLine($"\nThe temperature in celcius is {ConvertFahrenheitToCelcius(0):F}");
-            //Console.WriteLine($"\nThe temperature in celcius is {ConvertFahrenheitToCelcius(123.8):F}");
-            //Console.WriteLine($"\nThe temperature in celcius is {ConvertFahrenheitToCelcius(212):F}");
+            Console.WriteLine($"\nThe temperature in celcius is {ConvertFahrenheitToCelcius(0):F}");
+            Console.WriteLine($"\nThe temperature in celcius is {ConvertFahrenheitToCelcius(123.8):F}");
+            Console.WriteLine($"\nThe temperature in celcius is {ConvertFahrenheitToCelcius(212):F}");
 
-            //Console.WriteLine($"\nThe temperature in kelvin is {ConvertFahrenheitToKelvin(0):F}");
-            //Console.WriteLine($"\nThe temperature in kelvin is {ConvertFahrenheitToKelvin(123.8):F}");
-            //Console.WriteLine($"\nThe temperature in kelvin is {ConvertFahrenheitToKelvin(212):F}");
+            Console.WriteLine($"\nThe temperature in kelvin is {ConvertFahrenheitToKelvin(0):F}");
+            Console.WriteLine($"\nThe temperature in kelvin is {ConvertFahrenheitToKelvin(123.8):F}");
+            Console.WriteLine($"\nThe temperature in kelvin is {ConvertFahrenheitToKelvin(212):F}");
         }
 
         #region Question_3
@@ -117,7 +117,7 @@ namespace part_III
 
         static double CalculateGravitationalAttraction(double massOne, double massTwo, double distance) 
         {
-            double forceOfAttraction = (6.673 * * massOne * massTwo) / distance;
+            double forceOfAttraction = (6.673 * massOne * massTwo) / Math.Pow(distance, 2);
             return forceOfAttraction;
         }
         #endregion
@@ -197,7 +197,8 @@ namespace part_III
 
         static double ConvertFahrenheitToKelvin(double farenheit)
         {
-            double kelvin = (5.0 / 9.0 * (farenheit - 32)) + 273;
+            double celcius = ConvertCelciusToFahrenheit(farenheit);
+            double kelvin = CelciusToKelvin(celcius);
             return kelvin;
         }
         #endregion
