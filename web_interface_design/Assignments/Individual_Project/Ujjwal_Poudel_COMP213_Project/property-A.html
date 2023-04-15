@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="./media/title-icon.png">
-        <title>Homefinders: property-A</title>
+        <title>Homefinders: Two-Story Home</title>
     </head>
     <body>
         <!-- Header Starts-->
@@ -14,46 +14,107 @@
             <figure class="banner">
                 <picture>
                     <source media="(max-width: 767px)"
-                        srcset="./images/image-xsmall.jpg" width="576"
+                        srcset="./media/banner-small.png" width="576"
                         height="324">
                     <source media="(min-width: 768px)"
-                        srcset="./images/image-medium.jpg" width="820"
+                        srcset="./media/banner-medium.png" width="820"
                         height="360">
                     <source media="(min-width: 1400px)"
-                        srcset="./images/image-xlarge.jpg" width="1500"
+                        srcset="./media/banner-large.png" width="1500"
                         height="659">
-                    <img src="./images/image-xsmall.jpg" alt="Riverside View
-                        from
-                        Hotel" width="576" height="324">
+                    <img src="./media/banner-small.png" alt="Banner of Homefinders" width="576" height="324">
                 </picture>
             </figure>
 
             <nav class="navbar">
                 <ul class="navbar__nav">
-                    <li class="nav__item">
-                        <a class="nav__link" href="./index.html">Home</a>
+                    <li class="nav__item active">
+                        <a class="nav__link" href="./property-A.html">Two-Story Home</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="./available-properties.html">Properties</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link active" href="./property-A.html">Property-A</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./property-B.html">Property-B</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./Property-C.html">Property-C</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./map-credit.html">Credits</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./contact.html">About</a>
+                        <a class="nav__link" href="./available-properties.html">Back To Properties</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <!-- Header Endss-->
+
+        <!-- Main starts -->
+        <main class="main container">
+            <section class="product">
+                <div class="product-banner">
+                    <figure class="product__image">
+                        <picture class="product__extra-image">
+                            <source media="(max-width: 767px)"
+                                srcset="./media/first-listing.png"
+                                width="576"
+                                height="324">
+                            <source media="(min-width: 768px)"
+                                srcset="./media/first-listing.png"
+                                width="820"
+                                height="360">
+                            <source media="(min-width: 1400px)"
+                                srcset="./media/first-listing.png"
+                                width="1500"
+                                height="659">
+                            <img src="./media/first-listing.png"
+                                alt="forest
+                                View
+                                from
+                                Hotel" width="576" height="324">
+                        </picture>
+                    </figure>
+                </div>
+
+                <article class="content">
+                    <div class="content__title">
+                        <h2>Stunning Two-Story Home in the Heart of Toronto</h2>
+                    </div>
+                    <p class="content__paragraph">Welcome to this stunning
+                        two-story home located in the heart of Toronto. This
+                        beautiful property boasts four bedrooms, three
+                        bathrooms, and 2,500 square feet of living space. The
+                        main level features a spacious living room with a cozy
+                        fireplace, an open-concept kitchen with stainless steel
+                        appliances, and a formal dining room perfect for
+                        entertaining guests. Upstairs, you'll find a luxurious
+                        master suite with a private balcony, three additional
+                        bedrooms, and a full bathroom. The backyard is a private
+                        oasis with a sparkling pool and spa, lush landscaping,
+                        and plenty of space for outdoor living. This is a
+                        must-see property that won't last long on the market!
+                    </p>
+                    <ul>
+                        <li>Location: 123 Main Street, Toronto, ON, Canada</li>
+                        <li>Price: $500,000 CAD</li>
+                        <li>Bedrooms: 4</li>
+                        <li>Bathrooms: 3</li>
+                        <li>Square Footage: 2,500</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+        <!-- Main Ends -->
+
+        <!-- Footer Starts -->
+        <footer class="footer">
+            <div class="footer-content container">
+                <span>Homefinders</span><br>
+
+                <div id="footer_contact">
+                    4808 Yonge Street<br>
+                    North York<br>
+                    437-557-1889
+                </div>
+
+                <div class="footer__copy">
+                    Copyright &#169; Homefinders 2023
+                    ujjwal.poudel.2003@gmail.com<br>
+                    <a class="copy__linkedin"
+                        href="https://www.linkedin.com/in/ujjwal-poudel-30ab1725b">LinkedIn</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Ends -->
     </body>
 </html>

@@ -14,17 +14,15 @@
             <figure class="banner">
                 <picture>
                     <source media="(max-width: 767px)"
-                        srcset="./images/image-xsmall.jpg" width="576"
+                        srcset="./media/banner-small.png" width="576"
                         height="324">
                     <source media="(min-width: 768px)"
-                        srcset="./images/image-medium.jpg" width="820"
+                        srcset="./media/banner-medium.png" width="820"
                         height="360">
                     <source media="(min-width: 1400px)"
-                        srcset="./images/image-xlarge.jpg" width="1500"
+                        srcset="./media/banner-large.png" width="1500"
                         height="659">
-                    <img src="./images/image-xsmall.jpg" alt="Riverside View
-                        from
-                        Hotel" width="576" height="324">
+                    <img src="./media/banner-small.png" alt="Banner of Homefinders" width="576" height="324">
                 </picture>
             </figure>
 
@@ -37,23 +35,161 @@
                         <a class="nav__link" href="./available-properties.html">Properties</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="./property-A.html">Property-A</a>
+                        <a class="nav__link" href="./map-credit.html">Site-Map</a>
                     </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./property-B.html">Property-B</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./Property-C.html">Property-C</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link" href="./map-credit.html">Credits</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link active" href="./contact.html">About</a>
+                    <li class="nav__item active">
+                        <a class="nav__link" href="./contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <!-- Header Endss-->
+
+        <!-- Main Starts -->
+        <form class="container bordered">
+            <div class="form-section">
+                <h3 class="form-section__title">Fill the form to contact me</h3>
+                <p>Apartment Details</p>
+    
+                <fieldset class="formfield">
+                    <legend>1. What type of apartment do you like?</legend>
+                    <div class="formfield__sections">
+                        <input type="radio" id="knowledge-excellent"
+                            name="knowledge">
+                        <label for="knowledge-excellent">Unit</label>
+                        <input type="radio" id="knowledge-good"
+                            name="knowledge">
+                        <label for="knowledge-good">Condo</label>
+    
+                        <input type="radio" id="knowledge-fair"
+                            name="knowledge">
+                        <label for="knowledge-fair">Basement</label>
+    
+                        <input type="radio" id="knowledge-satisfaction"
+                            name="knowledge">
+                        <label for="knowledge-satisfaction">Rooms</label>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="formfield">
+                    <legend>2. How many rooms do you like?</legend>
+                    <div class="formfield__sections">
+                        <input type="radio" id="helpfullness-excellent"
+                            name="helpfullness">
+                        <label for="helpfullness-excellent">Single</label>
+                        <input type="radio" id="helpfullness-good"
+                            name="helpfullness">
+                        <label for="helpfullness-good">Double</label>
+    
+                        <input type="radio" id="helpfullness-fair"
+                            name="helpfullness">
+                        <label for="helpfullness-fair">Three</label>
+    
+                        <input type="radio" id="helpfullness-satisfaction"
+                            name="helpfullness">
+                        <label for="helpfullness-satisfaction">More than three</label>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="formfield">
+                    <legend>3. How many washrooms do you like?</legend>
+                    <div class="formfield__sections">
+                        <input type="radio" id="respect-excellent"
+                            name="respect">
+                        <label for="respect-excellent">single</label>
+    
+                        <input type="radio" id="respect-good" name="respect">
+                        <label for="respect-good">Double</label>
+    
+                        <input type="radio" id="respect-fair" name="respect">
+                        <label for="respect-fair">Three</label>
+    
+                        <input type="radio" id="respect-satisfaction"
+                            name="respect">
+                        <label for="respect-satisfaction">Inbuild private</label>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="formfield">
+                    <legend>4. What is your kitchen preference?</legend>
+                    <div class="formfield__sections">
+                        <input type="radio" id="communication-excellent"
+                            name="communication">
+                        <label for="communication-excellent">Shared single</label>
+                        <input type="radio" id="communication-good"
+                            name="communication">
+                        <label for="communication-good">Two Kitchen</label>
+    
+                        <input type="radio" id="communication-fair"
+                            name="communication">
+                        <label for="communication-fair">Inbuild kitchen rooms</label>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="formfield">
+                    <legend>5. Do you want parking space?</legend>
+                    <div class="formfield__sections">
+                        <input type="radio" id="performance-excellent"
+                            name="performance">
+                        <label for="performance-excellent">Yes</label>
+                        <input type="radio" id="performance-good"
+                            name="performance">
+                        <label for="performance-good">No</label>
+    
+                        <input type="radio" id="performance-fair"
+                            name="performance">
+                        <label for="performance-fair">Not Sure</label>
+                    </div>
+                </fieldset>
+    
+    
+                <div class="form-section">
+                    <h3 class="form-section__title no-margin">More Details</h3>
+                    <fieldset class="formfield">
+                        <legend>6. Where do you want the property?</legend>
+                        <div class="formfield__sections">
+                            <input type="radio" id="materials-excellent"
+                                name="materials">
+                            <label for="materials-excellent">Town</label>
+                            <input type="radio" id="materials-good"
+                                name="materials">
+                            <label for="materials-good">Village</label>
+    
+                            <input type="radio" id="materials-fair"
+                                name="materials">
+                            <label for="materials-fair">Moderate</label>
+    
+                            <input type="radio" id="materials-satisfaction"
+                                name="materials">
+                            <label for="materials-satisfaction">City</label>
+                        </div>
+                    </fieldset>
+    
+                    <div>
+                        <label for="form-section__comments">Please Enter your personal details here: </label>
+                        <textarea id="other" name="other" rows="4"></textarea>
+                    </div>
+    
+                <div class="form-section__response">
+                    <div class="response__submit">
+                        <input type="submit" value="Send Form" class="response"
+                            />
+                    </div>
+                    <div>
+                        <input type="reset" value="Clear Form" class="response"/>
+                    </div>
+                </div>
+    
+                <footer>
+                    <p>
+                        Thank you! We pay attention to your feedback!
+                    </p>
+                    <p>
+                       ujjwal.poudel.2003@gmail.com
+                    </p>
+                </footer>
+            </div>
+        </form>
+        <!-- Main Ends -->
     </body>
 </html>
