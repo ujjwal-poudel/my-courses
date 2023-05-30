@@ -1,8 +1,0 @@
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\bin\Debug\array_assignments.exe.config
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\bin\Debug\array_assignments.exe
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\bin\Debug\array_assignments.pdb
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\obj\Debug\array_assignments.csproj.AssemblyReference.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\obj\Debug\array_assignments.csproj.SuggestedBindingRedirects.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\obj\Debug\array_assignments.csproj.CoreCompileInputs.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\obj\Debug\array_assignments.exe
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week_10_assignment\array_assignments\array_assignments\obj\Debug\array_assignments.pdb

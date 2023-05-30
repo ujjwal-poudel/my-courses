@@ -1,8 +1,0 @@
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\bin\Debug\Q1_Obama.exe.config
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\bin\Debug\Q1_Obama.exe
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\bin\Debug\Q1_Obama.pdb
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\obj\Debug\Q1_Obama.csproj.AssemblyReference.cache
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\obj\Debug\Q1_Obama.csproj.SuggestedBindingRedirects.cache
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\obj\Debug\Q1_Obama.csproj.CoreCompileInputs.cache
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\obj\Debug\Q1_Obama.exe
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_4_assignment\Question_1_6\Q1_Obama\Q1_Obama\obj\Debug\Q1_Obama.pdb

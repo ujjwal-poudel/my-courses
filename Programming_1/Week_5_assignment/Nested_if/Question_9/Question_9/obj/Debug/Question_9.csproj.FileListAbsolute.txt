@@ -1,8 +1,0 @@
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\bin\Debug\Question_9.exe.config
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\bin\Debug\Question_9.exe
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\bin\Debug\Question_9.pdb
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\obj\Debug\Question_9.csproj.AssemblyReference.cache
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\obj\Debug\Question_9.csproj.SuggestedBindingRedirects.cache
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\obj\Debug\Question_9.csproj.CoreCompileInputs.cache
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\obj\Debug\Question_9.exe
-C:\Users\ujjwa\OneDrive\Documents\My_courses\Programming_1\Week_5_assignment\Nested_if\Question_9\Question_9\obj\Debug\Question_9.pdb

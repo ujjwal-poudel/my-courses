@@ -1,8 +1,0 @@
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\bin\Debug\Question_6D.exe.config
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\bin\Debug\Question_6D.exe
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\bin\Debug\Question_6D.pdb
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\obj\Debug\Question_6D.csproj.AssemblyReference.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\obj\Debug\Question_6D.csproj.SuggestedBindingRedirects.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\obj\Debug\Question_6D.csproj.CoreCompileInputs.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\obj\Debug\Question_6D.exe
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\Question_6D\Question_6D\obj\Debug\Question_6D.pdb

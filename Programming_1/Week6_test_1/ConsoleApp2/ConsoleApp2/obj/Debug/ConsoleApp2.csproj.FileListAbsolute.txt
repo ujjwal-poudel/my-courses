@@ -1,8 +1,0 @@
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.SuggestedBindingRedirects.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
-C:\Users\ujjwa\OneDrive\Documents\my-courses\Programming_1\Week6_test_1\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
