@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products:: Picture Details</title>
+        <link rel="stylesheet" href="./normalize.css"/>
+        <link rel="icon" href="./images/sunset.jpg"/>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+
+    <!--Ujjwal Poudel | 301284284-->
+    <body>
+        <!--Header Starts-->
+        <header>
+            <nav class="navbar">
+                <ul class="navbar__nav">
+                    <li class="nav__item active">
+                        <a class="nav__link" href="./Details.html">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./Assignment3.html">Back</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Starts -->
+        <main class="main footer__container">
+            <h2 class="heading details__header">The detailed pictures are shown here</h2>
+            <figure class="footer__container">
+                <picture class="detailed-suffboard-image">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/surfboard1.png" width="576"
+                        height="324">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/surfboard1.png" width="820"
+                        height="360">
+                    <source media="(min-width: 1400px)"
+                        srcset="./images/surfboard1.png" width="1500"
+                        height="659">
+                    <img src="./images/soft-top-surfboard2.jpg" alt="Soft top surfboard"
+                        width="576" height="324">
+                </picture>
+            </figure>
+
+            <figure class="footer__container">
+                <picture class="detailed-suffboard-image">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/soft-top-surfboard.jpg" width="576"
+                        height="324">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/soft-top-surfboard.jpg" width="820"
+                        height="360">
+                    <source media="(min-width: 1400px)"
+                        srcset="./images/soft-top-surfboard.jpg" width="1500"
+                        height="659">
+                    <img src="./images/soft-top-surfboard.jpg" alt="Soft top surfboard"
+                        width="576" height="324">
+                </picture>
+            </figure>
+            <!--Main Ends -->
+        </body>
+    </html>
